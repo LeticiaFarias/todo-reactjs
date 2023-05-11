@@ -7,14 +7,16 @@ on:
     branches: [ "main" ]
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout do repositório
+      uses: actions/checkout@v3
+    - name: Configurar diretório de trabalho
+      run: mkdir /app-js
+    - name: Mover arquivos para o diretório de trabalho
+      run: mv * /app-js
       working-directory: /app-js
-    - uses: actions/checkout@v3
-    - name: Build the Docker image
+    - name: Build da imagem Docker
+      working-directory: /caminho/para/diretorio
       run: docker build . --file Dockerfile --tag node:todo-app
