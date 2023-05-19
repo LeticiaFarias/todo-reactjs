@@ -6,35 +6,21 @@
   <!-- <a href="https://todolist.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">ToDo List</h1>
+<h1 align="center">✅ ToDo List</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/LeticiaFarias/to-do-list?color=56BEB8">
-
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/LeticiaFarias/to-do-list?color=56BEB8">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/LeticiaFarias/to-do-list?color=56BEB8">
-
-  <img alt="License" src="https://img.shields.io/github/license/LeticiaFarias/to-do-list?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/LeticiaFarias/to-do-list?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/LeticiaFarias/to-do-list?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/LeticiaFarias/to-do-list?color=56BEB8" /> -->
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/LeticiaFarias/todo-reactjs?color=207FC0">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/LeticiaFarias/todo-reactjs?color=207FC0">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/LeticiaFarias/todo-reactjs?color=207FC0">
+  <img alt="License" src="https://img.shields.io/github/license/LeticiaFarias/todo-reactjs?color=207FC0">
+  <a href="https://wakatime.com/badge/user/5dd5545b-543c-4824-a140-01a69ef7da68/project/a69e554a-0794-4f5a-a5c4-c768b4a1fd60"><img src="https://wakatime.com/badge/user/5dd5545b-543c-4824-a140-01a69ef7da68/project/a69e554a-0794-4f5a-a5c4-c768b4a1fd60.svg" alt="wakatime"></a>
 </p>
 
-<!-- Status -->
 
-<!-- <h4 align="center"> 
-	🚧  To Do List 🚀 Under construction...  🚧
-</h4> 
-
-<hr> -->
+<hr> 
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
@@ -46,23 +32,23 @@
 
 ## :dart: About ##
 
-Describe your project
+Task management application (To-Do List) with ReactJS.
 
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Recoil](https://recoiljs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/en/main)
+- [Vite](https://vitejs.dev/)
+- [Day.js](https://day.js.org/)
+- [clsx](https://github.com/lukeed/clsx)
+- [Phosphor](https://phosphoricons.com/)
+- [uuid](https://github.com/uuidjs/uuid)
 
 ## :white_check_mark: Requirements ##
 
@@ -72,16 +58,16 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/LeticiaFarias/to-do-list
+$ git clone https://github.com/LeticiaFarias/todo-reactjs
 
 # Access
-$ cd to-do-list
+$ cd todo-reactjs
 
 # Install dependencies
 $ yarn
 
 # Run the project
-$ yarn start
+$ yarn dev
 
 # The server will initialize in the <http://localhost:3000>
 ```
