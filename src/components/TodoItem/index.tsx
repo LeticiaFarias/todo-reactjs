@@ -25,7 +25,7 @@ export function TodoItem({ todo, toggle, remove }: ITodoItem) {
         'w-full px-4 py-3 rounded-md border-1 border-gray-600 flex flex-row gap-6 justify-between items-center',
         {
           'bg-gray-300': !done,
-          'bg-green-400': done,
+          'bg-green-800': done,
         }
       )}
     >
