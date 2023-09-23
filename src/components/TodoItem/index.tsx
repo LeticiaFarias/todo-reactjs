@@ -50,7 +50,6 @@ export function TodoItem({ todo, toggle, remove }: ITodoItem) {
         <div className={'flex flex-col'}>
           <p className={'text-gray-900 text-base'}>Lembrete</p>
           <p className={'text-gray-700 text-sm'}>
-            {dayjs(todo.reminderDate).format('L LT')}
           </p>
         </div>
       </label>
