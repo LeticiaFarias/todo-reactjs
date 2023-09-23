@@ -1,9 +1,6 @@
 <div align="center" id="top"> 
   <img src="./.github/app.gif" alt="To Do List" />
-
   &#xa0;
-
-  <!-- <a href="https://todolist.netlify.app">Demo</a> -->
 </div>
 
 <h1 align="center">✅ ToDo List</h1>
